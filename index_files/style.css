@@ -35,7 +35,7 @@ body {
 #stage {
     width: 500px;
     height: 500px;
-    background-color: none;
+    background-color: black;
     margin: auto;
     -webkit-perspective: 300px center center;
 }
@@ -43,7 +43,7 @@ body {
 #floor {
     width:400px;
     height:80px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     -webkit-mask-image: url(../image/tata.gif);
     -webkit-mask-size: 350px 80px;
     position: absolute;
@@ -60,7 +60,7 @@ body {
     width:100px;
     height:300px;
     margin:20px;
-    background-color: brown;
+    background-color: red;
     -webkit-mask-image: url(../image/door.gif);
     -webkit-mask-size: 100px 300px;
     float: left;
@@ -74,7 +74,7 @@ body {
     width:100px;
     height:300px;
     margin:20px;
-    background-color: brown;
+    background-color: red;
     -webkit-mask-image: url(../image/door.gif);
     -webkit-mask-size: 100px 300px;
     float: right;
@@ -88,7 +88,7 @@ body {
     width:370px;
     height:320px;
     margin:auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     float: center;
     font-size: 50px;
     line-height:80px;
@@ -100,8 +100,8 @@ body {
 
 #scene {    
     width:400px;
-    height: 100px;
-    position: relative;
+    height: 500px;
+    background-color: none;
     -webkit-transform: rotateX(-30deg) rotateY(30deg) translate(0px, 100px);
     -webkit-transform-style: preserve-3d;
 
